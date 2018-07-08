@@ -2,7 +2,6 @@ import random
 n = ''.join(random.sample("0123456789", 4))
 n=int(n)
 temp=n
-print(n)
 f=[]
 while n>0:
     rem=n%10
@@ -21,6 +20,8 @@ while bull<4:
     r=set(l)
     if(len(r)!=4):
         print("enter only unique number")
+        print("the answer is")
+        print(temp)
         break
     for h in range(4):
         for g in range(4):
